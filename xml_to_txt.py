@@ -22,7 +22,18 @@ def convert_annotation(image_id, class_dict):
         out_file.write(str(cls_id) + " " + " ".join([str(a) for a in bb]) + '\n')
 
 
-class_dict = {"D40": 0}
+class_dict = {
+    "D40": 1,
+    "D44": 2,
+    "D00": 3,
+    "D20": 4,
+    "D01": 5,
+    "D11": 6,
+    "D10": 7,
+    "D50": 8,
+    "D43": 9,
+    "D0w0": 10
+}
 
 path = 'RDD2022_India\\India\\train\\annotations\\xmls\\'
 
