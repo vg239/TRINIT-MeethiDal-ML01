@@ -32,7 +32,7 @@ class_dict = {
     "D10": 7,
     "D50": 8,
     "D43": 9,
-    "D0w0": 10
+    "D0w0": 0
 }
 
 path = 'RDD2022_India\\India\\train\\annotations\\xmls\\'
