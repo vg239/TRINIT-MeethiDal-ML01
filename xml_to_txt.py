@@ -35,7 +35,7 @@ class_dict = {
     "D0w0": 0
 }
 
-path = 'RDD2022_India\\India\\train\\annotations\\xmls\\'
+path = '//content//dataset_india//labels//train'
 
 
 files = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))]
@@ -52,4 +52,3 @@ for file in xml_files:
         convert_annotation(full_path[0:-4], class_dict)
     except AttributeError:
         continue
-    
