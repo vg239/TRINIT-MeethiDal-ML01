@@ -1,0 +1,18 @@
+path: C:/Users/ASUS/Desktop/dataset_india
+train: images/train
+val: images/train
+
+names:
+  0 : D0w0
+  1 : D40
+  2 : D44
+  3 : D00
+  4 : D20
+  5 : D01
+  6 : D11
+  7 : D10
+  8 : D50
+  9 : D43
+  
+
+
