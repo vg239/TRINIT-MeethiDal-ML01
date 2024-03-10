@@ -19,3 +19,8 @@ After this we ran a [python code](xml_to_txt.py) using the os library so as to g
 ## Creation of yaml file and building or training the model
 We created the [yaml file](config.yaml) and after that we trained the model using the YOLOv8 model containing both the images and the txt files corresponding to them which contain the coordinates and relative sizing.
 
+```python
+from ultralytics import YOLO
+model = YOLO("yolov8n.yaml")  # build a new model from scratch
+model.train(data="config.yaml", epochs=1)  # train the model
+```
